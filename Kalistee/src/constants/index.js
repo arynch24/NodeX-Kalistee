@@ -74,7 +74,7 @@ export const paginationItems = [
     productName: "Hair Elixir",
     price: "399.00",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Scalp treatment oil with essential oils like rosemary and cedarwood.",
   },
   {
     _id: 1002,
@@ -82,7 +82,7 @@ export const paginationItems = [
     productName: "Lip Scrub",
     price: "199.00",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Brown sugar, honey, and almond oil-based exfoliant for smooth lips.",
   },
   {
     _id: 1003,
@@ -90,7 +90,7 @@ export const paginationItems = [
     productName: "Scalp Detox Scrub",
     price: "349.00",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Cleansing scrub with neem, sea salt, and tea tree oil to remove build-up and dandruff.",
   },
   {
     _id: 1004,
