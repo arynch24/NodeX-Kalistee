@@ -34,7 +34,7 @@ const Payment = () => {
   }, []);
 
   return (
-    <div className="max-w-container mx-auto px-4 py-16 bg-gradient-to-b from-yellow-100 to-yellow-300 min-h-screen flex justify-center items-center flex-col">
+    <div className="max-w-container mx-auto px-4 py-16 bg-gradient-to-b from-gray-100 to-gray-500 min-h-screen flex justify-center items-center flex-col">
       {/* Success Message Container with Card-like styling */} 
       <div className="bg-white shadow-lg rounded-lg p-10 text-center pt-4 flex justify-center items-center flex-col mt-5">
         <p className="thank-you-message text-4xl text-yellow-600 font-bold mt-6">
