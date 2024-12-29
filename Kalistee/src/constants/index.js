@@ -1,4 +1,3 @@
-
 // =================== NavBarList Start here ====================
 export const navBarList = [
   {
@@ -36,6 +35,7 @@ export const SplOfferData = [
     productName: "Radiant Wash",
     price: "399.00",
     badge: true,
+    category: "Skin",
     des: "A gentle daily cleanser with Turmeric, Neem, and Aloe Vera to combat acne, reduce inflammation, and cleanse impurities for a clear, glowing complexion.",
   },
   {
@@ -44,6 +44,7 @@ export const SplOfferData = [
     productName: "Brightening Serum",
     price: "599.00",
     badge: true,
+    category: "Skin",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
   },
   {
@@ -52,6 +53,7 @@ export const SplOfferData = [
     productName: "Face Mist",
     price: "249.00",
     badge: true,
+    category: "Skin",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
   },
   {
@@ -60,6 +62,7 @@ export const SplOfferData = [
     productName: "Ayurvedic Lip Balm",
     price: "149.00",
     badge: true,
+    category: "Skin",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
   },
 ];
@@ -74,6 +77,7 @@ export const paginationItems = [
     productName: "Hair Elixir",
     price: "399.00",
     badge: true,
+    category: "Hair",
     des: "Scalp treatment oil with essential oils like rosemary and cedarwood.",
   },
   {
@@ -82,6 +86,7 @@ export const paginationItems = [
     productName: "Lip Scrub",
     price: "199.00",
     badge: true,
+    category: "Skin",
     des: "Brown sugar, honey, and almond oil-based exfoliant for smooth lips.",
   },
   {
@@ -90,6 +95,7 @@ export const paginationItems = [
     productName: "Scalp Detox Scrub",
     price: "349.00",
     badge: true,
+    category: "Hair",
     des: "Cleansing scrub with neem, sea salt, and tea tree oil to remove build-up and dandruff.",
   },
   {
@@ -98,7 +104,8 @@ export const paginationItems = [
     productName: "Ayurvedic Lip Balm",
     price: "149.00",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    category: "Skin",
+    des: "A soothing and hydrating lip balm made with Ghee, Kokum Butter, and Beetroot Extract to nourish, protect, and soften lips.",
   },
   {
     _id: 1005,
@@ -106,7 +113,8 @@ export const paginationItems = [
     productName: "Exfoliating Body Scrub",
     price: "399.00",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    category: "Skin",
+    des: "A luxurious scrub made with Walnut Shell Powder, Turmeric, and Shea Butter to exfoliate and reveal glowing, soft skin.",
   },
   {
     _id: 1006,
@@ -114,7 +122,8 @@ export const paginationItems = [
     productName: "Anti-Frizz Hair Mask",
     price: "399.00",
     badge: false,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    category: "Hair",
+    des: "A deep-conditioning mask with Fenugreek, Honey, and Avocado Extracts to smooth, nourish, and restore hair's natural shine.",
   },
   {
     _id: 1007,
@@ -122,7 +131,8 @@ export const paginationItems = [
     productName: "Night Repair Cream",
     price: "799.00",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    category: "Skin",
+    des: "A nourishing overnight cream with Ashwagandha, Bakuchiol (natural retinol), and Almond Oil to repair, hydrate, and rejuvenate skin while you sleep.",
   },
   {
     _id: 1008,
@@ -130,7 +140,8 @@ export const paginationItems = [
     productName: "Sunscreen Lotion",
     price: "349.00",
     badge: false,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    category: "Skin",
+    des: "An Ayurvedic sunscreen lotion enriched with Lotus Extract, Licorice, and Zinc Oxide to protect skin from harmful UV rays.",
   },
   {
     _id: 1009,
@@ -138,7 +149,8 @@ export const paginationItems = [
     productName: "Rejuvenating Hair Oil",
     price: "249.00",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    category: "Hair",
+    des: "A nourishing blend of Bhringraj, Amla, Hibiscus, and Coconut Oil to strengthen, repair, and nourish your hair.",
   },
   {
     _id: 1010,
@@ -146,15 +158,18 @@ export const paginationItems = [
     productName: "Spot Correcting Patches",
     price: "399.00",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    category: "Skin",
+    des: "A targeted gel with Manjistha, Tea Tree Oil, and Niacinamide to reduce acne spots and scars, leaving skin clearer and more even-toned.",
   },
+  /// New Items
   {
     _id: 1011,
-    img: "https://ik.imagekit.io/Jivan/HairMask.png?updatedAt=1735339728185",
-    productName: "Anti-Frizz Hair Mask",
-    price: "399.00",
+    img: "https://ik.imagekit.io/Jivan/GlowBoost.png?updatedAt=1735339160659",
+    productName: "Glow Boost Face Wash",
+    price: "299.00",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    category: "Skin",
+    des: "A gentle daily cleanser with Turmeric, Neem, and Aloe Vera to combat acne, reduce inflammation, and cleanse impurities for a clear, glowing complexion.",
   },
   {
     _id: 1012,
@@ -162,6 +177,7 @@ export const paginationItems = [
     productName: "Scalp Detox Scrub",
     price: "349.00",
     badge: false,
+    category: "Hair",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
   },
   {
@@ -170,7 +186,8 @@ export const paginationItems = [
     productName: "Hair Growth Tonic",
     price: "399.00",
     badge: false,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    category: "Hair",
+    des: "A water-based formula with Onion Extract, Curry Leaves, and Biotin to promote healthy hair growth.",
   },
 
   {
@@ -179,15 +196,18 @@ export const paginationItems = [
     productName: "Face Mist",
     price: "249.00",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    category: "Skin",
+    des: "A refreshing cooling mist made with Cucumber and Rose Water to provide instant hydration and revitalize the skin.",
   },
+  /// New Items
   {
     _id: 1015,
-    img: "https://ik.imagekit.io/durgeshsh/NodeX_images/hair_elixir_outdoor.png?updatedAt=1735340075277",
-    productName: "Hair Elixir",
+    img: "https://ik.imagekit.io/Jivan/DetoxClayMask.png?updatedAt=1735339160791",
+    productName: "Detox Clay Mask",
     price: "399.00",
     badge: false,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    category: "Hair",
+    des: "A deep-cleansing mask with Bentonite Clay, Activated Charcoal, Tulsi, and Green Tea to purify, detoxify, and revitalize your skin.",
   },
   {
     _id: 1016,
@@ -195,15 +215,18 @@ export const paginationItems = [
     productName: "Multipurpose Balm",
     price: "249.00",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    category: "Skin",
+    des: "A soothing balm with Neem and Calendula for treating skin irritation, dryness, and minor cuts, perfect for healing and hydration.",
   },
+  /// New Items
   {
     _id: 1017,
-    img: "https://ik.imagekit.io/durgeshsh/NodeX_images/sunscreen_lotion_outdoor.png?updatedAt=1735340075097",
-    productName: "Sunscreen Lotion",
+    img: "https://ik.imagekit.io/Jivan/BrightningSerum.png?updatedAt=1735339160654",
+    productName: "Brightening Serum",
     price: "349.00",
     badge: false,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    category: "Skin",
+    des: "A lightweight serum with Saffron, Licorice Root, and Sandalwood Oil to brighten skin and reduce pigmentation, leaving your complexion radiant and even-toned.",
   },
   {
     _id: 1018,
@@ -211,23 +234,28 @@ export const paginationItems = [
     productName: "Under-Eye Cream",
     price: "399.00",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    category: "Skin",
+    des: "An energizing under-eye cream with Caffeine, Almond Oil, and Saffron to reduce puffiness and dark circles.",
   },
+  /// New Items
   {
     _id: 1019,
-    img: "https://ik.imagekit.io/durgeshsh/NodeX_images/exfoliating_body_scrub.png?updatedAt=1735340075182",
-    productName: "Exfoliating Body Scrub",
+    img: "https://ik.imagekit.io/Jivan/Moisturizer.png?updatedAt=1735339160605",
+    productName: "Hydrating Gel Moisturizer",
     price: "399.00",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    category: "Skin",
+    des: "This lightweight, fast-absorbing gel moisturizer with Rose Water, Amla, and Hyaluronic Acid hydrates and refreshes the skin, leaving it smooth and plump without greasiness.",
   },
+  /// New Items
   {
     _id: 1020,
-    img: "https://ik.imagekit.io/durgeshsh/NodeX_images/lip_scrub_outdoor.png?updatedAt=1735340074697",
+    img: "https://ik.imagekit.io/durgeshsh/NodeX_images/herbal_shampoo_reetha_outdoor.png?updatedAt=1735338728695",
     productName: "Lip Scrub",
     price: "199.00",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    category: "Skin",
+    des: "An eco-friendly solid shampoo with Reetha, Shikakai, and Lavender to gently cleanse and care for your hair.",
   },
   
 ];
