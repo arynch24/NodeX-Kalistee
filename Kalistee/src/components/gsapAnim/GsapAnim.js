@@ -39,7 +39,7 @@ const GsapAnim = () => {
   }, []);
 
   return (
-    <div className="space-x-4 flex justify-center items-center flex-wrap h-[20%] bg-zinc-100 gap-20 text-center relative p-10 mb-5">
+    <div className="space-x-4 flex justify-center items-center flex-wrap h-[20%] bg-zinc-100 gap-20 text-center relative p-10 mb-16">
       {/* Correct image paths using the imports */}
       <span className="image">
         <img src={a1} alt="Image1" className="w-24 h-24 object-cover" />
