@@ -1,13 +1,10 @@
 import React from "react";
 import Banner from "../../components/Banner/Banner";
-import BannerBottom from "../../components/Banner/BannerBottom";
 import BestSellers from "../../components/home/BestSellers/BestSellers";
 import NewArrivals from "../../components/home/NewArrivals/NewArrivals";
-// import Sale from "../../components/home/Sale/Sale";
 import SpecialOffers from "../../components/home/SpecialOffers/SpecialOffers";
 import YearProduct from "../../components/home/YearProduct/YearProduct";
 import VideoCarousel from "../../components/home/VideoReview/VideoCrousels";
-// import ProductCategory from "../../components/home/ProductCategory/ProductCategory";
 import Marque2 from "../../components/home/Marque/Marque2";
 import GsapAnim from "../../components/gsapAnim/GsapAnim";
 import HoverCategory from "../../components/home/HoverCategory/HoverCategory";
@@ -25,15 +22,9 @@ const Home = () => {
   return (
     <div className="w-full mx-auto">
       <Banner />
-      <BannerBottom />
       <div className="max-w-container mx-auto px-4">
         <HoverCategory />
-        {/* <Sale /> */}
         <NewArrivals />
-        <div className="mb-20">
-          {/* Uncomment the following line if you need ProductCategory */}
-          {/* <ProductCategory /> */}
-        </div>
         <hr className="border-t-2 border-gray-300" />
         <div className="mt-5 mb-10">
           <VideoCarousel videoUrls={videoUrls} />

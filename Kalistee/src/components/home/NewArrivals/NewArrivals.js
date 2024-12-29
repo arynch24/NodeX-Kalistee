@@ -51,7 +51,7 @@ const NewArrivals = () => {
             productName="Detox Clay Mask"
             price="349.00"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="A purifying clay mask with Kaolin, Bentonite, and Turmeric to detoxify, exfoliate, and brighten the skin for a radiant complexion."
           />
         </div>
         <div className="px-2">
@@ -61,7 +61,7 @@ const NewArrivals = () => {
             productName="Leaf-Conditioner Spray"
             price="349.00"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="A hydrating conditioner spray with Aloe Vera, Coconut Oil, and Vitamin E to detangle, soften, and nourish hair for a smooth, shiny finish."
           />
         </div>
         <div className="px-2">
@@ -70,26 +70,18 @@ const NewArrivals = () => {
             img={'https://ik.imagekit.io/durgeshsh/NodeX_images/scalp_detox_scrub.png?updatedAt=1735338729117'}
             productName="Scalp Detox Scrub"
             price="349.00"
-            // color="Mixed"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="A revitalizing scalp scrub with Sea Salt, Tea Tree Oil, and Peppermint to exfoliate, cleanse, and soothe the scalp for healthy, lustrous hair."
           />
         </div>
-        {/* //sidhai */}
         <div className="px-2">
         <Product
           _id="1013"
           img={'https://ik.imagekit.io/Jivan/GlowBoost.png?updatedAt=1735339160659'}
           productName="RadiantWash"
           price="399.00"
-          // color="Mixed"
           badge={true}
-          des="A gentle daily cleanser with Turmeric, Neem, and Aloe Vera to combat acne, reduce inflammation, and cleanse impurities for a clear, glowing complexion.
-Variations:
-For Oily Skin: With Tea Tree Oil and Lemon Extract to control excess oil and prevent breakouts.
-For Dry Skin: Enriched with Honey and Almond Oil for deep hydration and nourishment.
-For Sensitive Skin: With Chamomile and Calendula to soothe and calm irritation.
-How to Use: Apply to wet skin, massage gently, and rinse thoroughly for refreshed, clear skin. Available in 100ml and 200ml sizes."
+          des="A gentle daily cleanser with Turmeric, Neem, and Aloe Vera to combat acne, reduce inflammation, and cleanse impurities for a clear, glowing complexion."
         />
           
         </div>
@@ -99,9 +91,8 @@ How to Use: Apply to wet skin, massage gently, and rinse thoroughly for refreshe
             img={'https://ik.imagekit.io/Jivan/SpotCorrectingPatches.png?updatedAt=1735335883071'}
             productName="Spot Correcting Patches"
             price="399.00"
-            // color="Mixed"
             badge={false}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="A pack of 12 spot-correcting patches with Salicylic Acid, Tea Tree Oil, and Vitamin C to reduce blemishes, redness, and inflammation for clear, smooth skin."
           />
         </div>
       </Slider>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Breadcrumbs from "../../components/pageProps/Breadcrumbs";
 
-const Journal = () => {
+const Trusted = () => {
   const location = useLocation();
   const [prevLocation, setPrevLocation] = useState("");
   useEffect(() => {
@@ -51,4 +51,4 @@ Whether you're looking for healthy, shiny hair, glowing skin, or an overall reju
   );
 };
 
-export default Journal;
+export default Trusted;

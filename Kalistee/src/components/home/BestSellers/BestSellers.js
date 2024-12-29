@@ -1,12 +1,6 @@
 import React from "react";
 import Heading from "../Products/Heading";
 import Product from "../Products/Product";
-// import {
-//   bestSellerOne,
-//   bestSellerTwo,
-//   bestSellerThree,
-//   bestSellerFour,
-// } from "../../../assets/images/index";
 
 const BestSellers = () => {
   return (
@@ -18,7 +12,6 @@ const BestSellers = () => {
           img={'https://ik.imagekit.io/Jivan/NightrepairingCream.png?updatedAt=1735339160726'}
           productName="Night Repair Cream"
           price="799.00"
-          // color="Gray"
           badge={false}
           des="A nourishing overnight cream with Ashwagandha, Bakuchiol (natural retinol), and Almond Oil to repair, hydrate, and rejuvenate skin while you sleep."
         />
@@ -28,21 +21,16 @@ const BestSellers = () => {
           img={'https://ik.imagekit.io/durgeshsh/NodeX_images/hair_elixir_outdoor.png?updatedAt=1735340075277'}
           productName="Hair Elixir"
           price="399.00"
-          // color="Gray"
           badge={false}
-          des="A refreshing cooling mist made with Cucumber and Rose Water to provide instant hydration and revitalize the skin.
-Sizes: 100ml.
-How to Use: Hold the bottle at arm's length and mist evenly over the face for a refreshing boost."
+          des="A refreshing cooling mist made with Cucumber and Rose Water to provide instant hydration and revitalize the skin."
         />
-        {/* scdchasio */}
         <Product
             _id="100004"
             img={'https://ik.imagekit.io/durgeshsh/NodeX_images/under-eye_cream_indoor.png?updatedAt=1735338730487'}
             productName="Under-Eye Cream"
             price="399.00"
-            // color="Mixed"
             badge={false}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="A hydrating under-eye cream made with Cucumber, Aloe Vera, and Almond Oil to reduce puffiness, dark circles, and fine lines."
           />
         <Product
           _id="1014"
@@ -51,10 +39,7 @@ How to Use: Hold the bottle at arm's length and mist evenly over the face for a 
           price="220.00"
           color="Black"
           badge={false}
-          des="A sweet lip scrub made with Brown Sugar, Honey, and Almond Oil to exfoliate and soften lips.
-Sizes: 15g.
-How to Use: Gently rub onto lips and rinse off for smooth, hydrated lips.
-"
+          des="A sweet lip scrub made with Brown Sugar, Honey, and Almond Oil to exfoliate and soften lips."
         />
       </div>
     </div>

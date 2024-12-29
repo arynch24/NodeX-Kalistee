@@ -24,7 +24,7 @@ export const navBarList = [
   {
     _id: 1005,
     title: "Trusted",
-    link: "/journal",
+    link: "/trusted",
   },
 ];
 // =================== NavBarList End here ======================
